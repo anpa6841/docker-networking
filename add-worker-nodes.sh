@@ -3,7 +3,6 @@
 # Create overlay network if it doesn't exist
 docker network ls | grep -q my_overlay || docker network create --driver overlay --attachable my_overlay
 
-
 # Get the join token for workers
 JOIN_TOKEN=$(docker swarm join-token worker -q)
 

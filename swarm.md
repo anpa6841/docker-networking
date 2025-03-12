@@ -1,8 +1,10 @@
+### Single-Host Multi-Node Swarm Cluster
+
 1. Initialize the Swarm
 
 - docker swarm init
 
-2. Add Worker Nodes (on the same machine)
+2. Add Worker Nodes
 
 - ./add-worker-nodes.sh
 
